@@ -1,0 +1,16 @@
+{
+  "name": "@test/app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc -b && vite build",
+    "tsc": "tsc --noEmit --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@test/common": "1.0.0"
+  },
+  "devDependencies": {
+  }
+}
