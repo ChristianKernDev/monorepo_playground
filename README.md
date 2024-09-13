@@ -2,7 +2,7 @@
 
 ```
 cd frontend
-npm run setup-workspace
+npm install
 
 cd app
 npm run build
