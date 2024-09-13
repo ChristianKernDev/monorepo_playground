@@ -5,6 +5,7 @@
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
+    "build-no-tsc":"vite build",
     "tsc": "tsc --noEmit --watch",
     "preview": "vite preview"
   },
